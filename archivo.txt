@@ -1,1 +1,2 @@
-Hola mi nombre es Jose Manrique
+Hola mi nombre es: Jose Manrique
+un pro en la programación
