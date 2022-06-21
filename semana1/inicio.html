@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./estilos.css">
+   <title>Document</title>
+</head>
+<body>
+   <header>
+      <table class="table">
+         <tr>
+            <th class="table__title" colspan="2">💻 Especificidad en CSS 💻</th>
+         </tr>
+         <tr>
+            <td class="table__subtitle">Selectores</td>
+            <td class="table__subtitle">Especificidad</td>
+         </tr>
+         <tr>
+            <td class="table__description">!Important</td>
+            <td class="table__description">1,0,0,0,0</td>
+         </tr>
+         <tr>
+            <td class="table__description">Estilos en linea</td>
+            <td class="table__description">0,1,0,0,0</td>
+         </tr>
+         <tr>
+            <td class="table__description">#ID</td>
+            <td class="table__description">0,0,1,0,0</td>
+         </tr>
+         <tr>
+            <td class="table__description">Clases</td>
+            <td class="table__description">0,0,0,1,0</td>
+         </tr>
+         <tr>
+            <td class="table__description">Elementos</td>
+            <td class="table__description">0,0,0,0,1</td>
+         </tr>
+         <tr>
+            <td class="table__description">*Selector universal</td>
+            <td class="table__description">0,0,0,0,0</td>
+         </tr>
+      </table>
+   </header>
+</body>
+</html>

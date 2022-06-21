@@ -1,0 +1,17 @@
+body {
+   background-color: aquamarine;
+}
+.div-container {
+   width: 300px;
+   height: 300px;
+   margin: 100px auto;
+   background-color: white;
+}
+.user {
+height: 30px;
+border-radius: 5px;
+}
+.pass {
+height: 30px;
+border-radius: 5px;
+}

@@ -1,0 +1,38 @@
+.table {
+   border: 3px solid black;
+   border-collapse: collapse;
+   width: 100%;
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 700;
+
+}
+
+.table__title {
+   border: 2px solid #000000;
+   padding: 10px;
+   background-color: #00ffff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+   font-size: 1.5rem;
+   text-decoration: underline;
+
+}
+
+.table__subtitle {
+   border: 2px solid black;
+   padding: 8px;
+   background-color: aquamarine;
+   font-weight: 800;
+   font-size: 1.25rem;
+   color: #0e008f;
+}
+
+.table__description {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border: 2px solid black;
+   padding: 8px;
+   background-color: rgb(255, 232, 27);
+   font-weight: 600;
+   font-size: 1.20rem;
+}

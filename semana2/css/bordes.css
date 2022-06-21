@@ -1,0 +1,13 @@
+p {
+   text-align: center;
+}
+.solid {
+border-style: solid;
+border-color: chocolate;
+border-width: 0.5rem;
+}
+.dashed {
+border-style: dashed;
+border-color: blue;
+border-width: 0.5rem;
+}
